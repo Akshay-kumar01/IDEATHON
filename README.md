@@ -28,10 +28,10 @@
  - ***No more ignorance to mental health :***
      -  While in India, a major part of the population is ignorant of mental health. There was a total prevalence of anxiety symptoms of **32.60%** during the COVID-19 pandemic. The basic idea is to provide regular sessions by professionals to help people improve their mental health.
  - ***Practice opportunities for beginner therapists:***
-    - As the idea of mental health evolves, this platform will provide an opportunity to start practising while they’re in their college, or after graduation, to help people improve their mental health. For increasing the reachability and ensuring the credibility of the sessions, we’ll provide demo sessions by volunteers. Besides, we’ll approach the NGO’s and the government to promote our idea and provide certification to the volunteers participating in:- <br/><br/>
-       ***Mental health camps*** <br/>
-       ***Seminars***   <br/>
-       ***One on one sessions***   <br/>
+    - As the idea of mental health evolves, this platform will provide an opportunity to start practising while they’re in their college, or after graduation, to help people improve their mental health. For increasing the reachability and ensuring the credibility of the sessions, we’ll provide demo sessions by volunteers. Besides, we’ll approach the NGO’s and the government to promote our idea and provide certification to the volunteers participating in:- <br/><br/><br/>
+           ***1. Mental health camps*** <br/>
+           ***2. Seminars***   <br/>
+           ***3. One on one sessions***   <br/>
 
 
 **Tech-Stack we are opting to use** <br/>
