@@ -3,7 +3,8 @@
 }
 
 body
-{
+{ 
+	background-color: rgb(241, 126, 207);
     margin:40px 0px;
     background-color:#385591;
 }
@@ -99,7 +100,7 @@ main
 
 /* Header */
 header
-{
+{ 
     padding: 15px 20px;
     background-color: #4267b2;
 }
@@ -263,6 +264,10 @@ header
     margin-top: 28px;
     overflow: hidden;
     box-shadow: 0 0 0 5px #fff;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	
 }
 
 #profile-pic img
@@ -362,7 +367,9 @@ header
 }
 
 .l-cnt
-{
+{  display: flex;
+	flex-direction: column;
+
     padding: 20px;
     background-color: #fff;
     box-shadow: 0px 3px 3px #ddd;
