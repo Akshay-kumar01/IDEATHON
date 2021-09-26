@@ -19,17 +19,20 @@
     display: flex;
     justify-content: space-between;
     position: sticky;
-    background-color: #1b1b1b;
+    background-color: #ffffff;
     z-index: 100;
     top: 0;
-    box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 5px 8px -9px rgba(255, 255, 255, 0.75);
   }
 
   .username{
-    color: #fff;
+    color: rgb(212, 86, 149);
     font-family: 'Roboto', sans-serif;
   }
   
+  .username:hover{
+    color: white;
+  }
   .header__left {
     display: flex;
     align-items: center;
@@ -91,6 +94,7 @@
     align-items: center;
     padding: 0 30px;
     border-bottom: none;
+
   }
   
   .header__info {
@@ -118,66 +122,7 @@
     cursor: pointer;
   }
   
-  /* sidebar  */
-  
-  /* .sidebarRow {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    cursor: pointer;
-  }
-  
-  .sidebarRow:hover {
-    background-color: lightgray;
-    border-radius: 10px;
-  }
-  
-  .sidebarRow h4 {
-    margin-left: 20px;
-    font-weight: 600;
-  }
-  
-  .sidebarRow .material-icons {
-    font-size: xx-large;
-    color: #ff2b06;
-  } */
-  
-  /* story */
-  /* .story {
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 120px;
-    height: 200px;
-    box-shadow: 0px 5px 17px -7px rgba(0, 0, 0, 0.75);
-    border-radius: 10px;
-    margin-right: 10px;
-    transition: transform 100ms ease-in;
-    cursor: pointer;
-  }
-  
-  .story:hover {
-    transform: scale(1.07);
-  }
-  
-  .story__avatar {
-    margin: 10px;
-    color: #ff2b06;
-  }
-  
-  .story h4 {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    color: #1b1b1b;
-  }
-  
-  .storyReel {
-    padding: 10px 0;
-    display: flex;
-  } */
-  
-  /* Sidebar */
+
 .sidebar {
   position: sticky;
   top: 80px;
@@ -289,7 +234,7 @@
   }
   
   body {
-    background-color: #f1f2f5;
+    background-color: rgb(243, 150, 197);
   }
   
   .feed {
@@ -367,15 +312,17 @@
   /* post */
   
   .post {
-    width: 100%;
+    width: 75%;
     margin-top: 15px;
     border-radius: 15px;
-    background-color: #1b1b1b;
-    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.75);
+    background-color: #ffffff;
+    box-shadow: 0px 5px 7px -7px rgba(97, 74, 74, 0.75);
   }
   
   .post__image img {
     width: 100%;
+    border-radius: 30px;
+    padding: 10px;
   }
   
   .post__top {
@@ -395,13 +342,14 @@
   
   .post__topInfo p {
     font-size: small;
-    color: gray;
+    color: rgb(212, 86, 149);
   }
   
   .post__bottom {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 15px 25px;
+
   }
   
   .post__options {
@@ -410,11 +358,15 @@
     display: flex;
     justify-content: space-evenly;
     font-size: medium;
-    color: gray;
+    color: rgb(212, 86, 149);
     cursor: pointer;
     padding: 15px;
   }
   
+  .post__options:hover {
+    color:white;
+  }
+
   .post__option {
     display: flex;
     align-items: center;
@@ -428,8 +380,9 @@
   }
   
   .post__option:hover {
-    background-color: #eff2f5;
+    background-color: rgb(212, 86, 149);
     border-radius: 10px;
+    color: white
   }
   
   @media (max-width: 768px) {
@@ -471,7 +424,7 @@
   @media (min-width: 320px) {
     .storyReel {
       width: 100%;
-      overflow-x: scroll;
+      overflow-x: hidden;
     }
   }
   
@@ -487,5 +440,3 @@
 
 
 
-
- 
