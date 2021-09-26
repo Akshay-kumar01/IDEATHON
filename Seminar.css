@@ -166,6 +166,7 @@
   
   .main__body {
     display: flex;
+    overflow: hidden;
   }
   
   body {
@@ -357,7 +358,7 @@
   @media (min-width: 320px) {
     .storyReel {
       width: 100%;
-      overflow-x: scroll;
+      overflow-x: hidden;
     }
   }
   
